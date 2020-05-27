@@ -46,7 +46,7 @@ class ExamplePresenter extends Presenter {
 
     public function injectGuzzle(Client $guzzle): void
     {
-        $this->guzzle = $guzzle
+        $this->guzzle = $guzzle;
     }
 
     // Alternatively you could create new instance through ClientFactory
